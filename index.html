@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="Style.js" type="text/javascript"></script>
+    <title>Assignment 1 Eventlistner</title>
+</head>
+<body>
+        <div class="container">
+            <h1>Login</h1>
+            <form onsubmit="return validation()">
+                <div class="username">
+                    <label>Username<b>:</b></label>
+                    <input id="username" value="" type="text" placeholder="Enter your name here">
+                    <span id="message"> </span>
+                </div>
+                <div class="Password">
+                    <label>Password<b>:</b></label>
+                    <input id="password" value="" type="password" placeholder="Write a strong password">
+                    <span id="message2"> </span>
+                    <br>
+                    <br>
+                    <span id="message3"></span>
+                    <ul>
+                        <li><h4>Password must contain atleast 8 characters</h4></li>
+                        <li><h4>Password also must contain special characters</h4></li>
+                    </ul>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+            
+        </div>
+</body>
+</html>

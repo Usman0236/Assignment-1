@@ -1,0 +1,48 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    height: 100%;
+    margin: 70px 0 0 70px;
+}
+h1{
+    font-weight: 25px;
+    padding: 0 0 18px;
+}
+.username{
+    display: inline-block;
+    padding-bottom: 15px;
+}
+.username input{
+    /* min-width: 80%%; */
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding-top: 15px;
+}
+.Password{
+    /* display: inline-block; */
+    padding-bottom: 15px;
+}
+
+.Password input{
+    /* width: 17.5%; */
+    /* display: flex; */
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding-top: 15px;   
+}
+.Password ul {
+    padding-top: 20px;
+}
+.Password ul li{
+    font-size: 9.5px;
+}
+span{
+    color: red;
+}
